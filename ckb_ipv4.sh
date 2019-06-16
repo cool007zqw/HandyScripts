@@ -20,6 +20,6 @@ EOT
 
 
 tmux new-session -d -s "miner"
-sleep 3
+sleep 5
 tmux send-keys -t "miner" "ckb miner -C ~/ckb_v0.14.0_x86_64-unknown-linux-gnu/ckb-testnet/" C-m
 tmux a
