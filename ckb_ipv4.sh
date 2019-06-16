@@ -18,8 +18,9 @@ code_hash = "0xf1951123466e4479842387a66fabfd6b65fc87fd84ae8e6cd3053edb27fff2fd"
 args = ["0x1fa5af45df2c6ba478e9bb06cf6f594b88356b16"]
 EOT
 
-
+sleep 1
 tmux new-session -d -s "miner"
-sleep 5
+sleep 1
 tmux send-keys -t "miner" "ckb miner -C ~/ckb_v0.14.0_x86_64-unknown-linux-gnu/ckb-testnet/" C-m
+sleep 1
 tmux a
