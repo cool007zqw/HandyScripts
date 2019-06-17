@@ -1,6 +1,8 @@
 #!/bin/sh
 
-wget https://github.com/nervosnetwork/ckb/releases/download/v0.14.0/ckb_v0.14.0_x86_64-unknown-linux-gnu.tar.gz
+#wget https://github.com/nervosnetwork/ckb/releases/download/v0.14.0/ckb_v0.14.0_x86_64-unknown-linux-gnu.tar.gz
+
+wget https://www.dropbox.com/s/8nctqs1d7vjuk0j/ckb_v0.14.0_x86_64-unknown-linux-gnu.tar.gz?dl=0 -O ckb_v0.14.0_x86_64-unknown-linux-gnu.tar.gz
 tar -xzvf ckb_v0.14.0_x86_64-unknown-linux-gnu.tar.gz
 cd ckb_v0.14.0_x86_64-unknown-linux-gnu
 sudo ln -snf "$(pwd)/ckb" /usr/local/bin/ckb
