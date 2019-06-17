@@ -10,7 +10,7 @@ cd ckb-testnet
 
 
 sed -i 's/threads     = 1/threads     = 3/g' ckb-miner.toml
-sed -i 's/127.0.0.1:8114/enzo.host:8114/g' ckb-miner.toml
+sed -i 's/127.0.0.1:8114/hk.enzo.host:8114/g' ckb-miner.toml
 
 cat <<EOT >> ckb.toml
 [block_assembler]
